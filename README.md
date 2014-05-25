@@ -6,11 +6,11 @@ YSS offers a way to write maintainable styles with multiple people working on th
 If you're looking for a guide on how to structure your css check out [bevacqua/css](https://github.com/bevacqua/css).
 
 ## Syntax
-````css
+````
 @class           - define which css classes are used
 @selector        - define which selector this component affects
-@state {state}   - define alternate states that are accounted for, e.g. :hover, :selected
-@param {param}   - define the variables the class uses, e.g. Number, Color, Mixed
+@state {state}   - define alternate states that are accounted for
+@param {param}   - define the variables the class uses
 ````
 
 ## Examples
