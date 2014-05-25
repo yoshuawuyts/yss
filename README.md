@@ -1,4 +1,4 @@
-# YSS: maintainable CSS for JS fetishistas
+# YSS: maintainable CSS annotation
 YSS aims to be a reference on how to write CSS comments, similar in spirit to 
 [KSS](https://github.com/kneath/kss) using [jsDoc](http://usejsdoc.org/)-esque notation. 
 YSS offers a way to write maintainable styles with multiple people working on the same codebase.
