@@ -15,7 +15,7 @@ If you're looking for a guide on how to structure your css check out [bevacqua/c
 
 ## Examples
 
-### File headers
+An example YSS block for BEM-style modifiers.
 ````css
 /**
  * Form submit button
@@ -27,16 +27,27 @@ If you're looking for a guide on how to structure your css check out [bevacqua/c
  */
 ````
 
-### Class headers
-````js
+An example YSS block for a link with multiple states.
+````css
 /**
  * Form submit button text
  *
  * @selector a p > href
  * @state {:hover}
  * @state {:selected}
- * @param {Color} --color-white
+ * @param {Color} --color-submit
  */
+
+a p > href {
+  text-decoration: none;
+  color: hsla(0, 100, 60%, 1);
+}
+
+a p > href:hover,
+a p > href:selected {
+  color: hsla(0, 100, 80%, 1);
+  background-color: var(--color-submit);
+}
 ````
 
 ## License
